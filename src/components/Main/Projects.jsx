@@ -57,14 +57,18 @@ const Projects = ({ projects, categories }) => {
                                 </div>
                                 {/* button */}
                                 <a
-                                    href="#."
+                                    href={project.source}
+                                    target="_blank"
                                     className="art-link art-color-link art-w-chevron"
+                                    rel="noreferrer"
                                 >
                                     Source Code
                                 </a>
                                 <a
-                                    href="#."
+                                    href={project.demo}
+                                    target="_blank"
                                     className="art-link art-color-link art-w-chevron"
+                                    rel="noreferrer"
                                 >
                                     Demo
                                 </a>

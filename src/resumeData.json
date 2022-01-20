@@ -185,7 +185,8 @@
             "category": "HTML+CSS JavaScript ReactJS API",
             "image": "img/projects/react-weather-app.png",
             "image2": "img/projects/react-weather-app.png",
-            "url": "https://react-owm-weather-app.netlify.app/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://react-owm-weather-app.netlify.app/",
             "modal": "#modal-10"
         },
         {
@@ -194,7 +195,8 @@
             "category": "HTML+CSS ReactJS",
             "image": "img/projects/advice-app.png",
             "image2": "img/projects/advice-app.png",
-            "url": "https://random-advice-react-app.netlify.app/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://random-advice-react-app.netlify.app/",
             "modal": "#modal-10"
         },
         {
@@ -203,7 +205,8 @@
             "category": "HTML+CSS JavaScript ReactJS",
             "image": "img/projects/iilegal.png",
             "image2": "img/projects/iilegal.png",
-            "url": "https://iilegal.netlify.app/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://iilegal.netlify.app/",
             "modal": "#modal-10"
         },
         {
@@ -212,7 +215,8 @@
             "category": "HTML+CSS JavaScript ReactJS",
             "image": "img/projects/rock-paper-scissors-lizard-spock.png",
             "image2": "img/projects/rock-paper-scissors-lizard-spock.png",
-            "url": "https://rock-paper-scissors-lizard-spock-project.netlify.app/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://rock-paper-scissors-lizard-spock-project.netlify.app/",
             "modal": "#modal-09"
         },
         {
@@ -221,7 +225,8 @@
             "category": "HTML+CSS JavaScript API",
             "image": "img/projects/google-maps-clone.png",
             "image2": "img/projects/google-maps-clone.png",
-            "url": "https://testmycode.ga/google-maps-clone/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/google-maps-clone/",
             "modal": "#modal-08"
         },
         {
@@ -230,7 +235,8 @@
             "category": "HTML+CSS JavaScript API",
             "image": "img/projects/speed-typing.png",
             "image2": "img/projects/speed-typing.png",
-            "url": "https://testmycode.ga/speed-typing/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/speed-typing/",
             "modal": "#modal-07"
         },
         {
@@ -239,7 +245,8 @@
             "category": "HTML+CSS JavaScript Bootstrap PHP AJAX MySQL",
             "image": "img/projects/medicare.png",
             "image2": "img/projects/medicare.png",
-            "url": "https://testmycode.ga/medicare.png",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/medicare.png",
             "modal": "#modal-06"
         },
         {
@@ -248,7 +255,8 @@
             "category": "HTML, CSS, JS, ReactJS",
             "image": "img/projects/dynamic-portfolio.png",
             "image2": "img/projects/dynamic-portfolio.png",
-            "url": "https://testmycode.ga/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/",
             "modal": "#modal-06"
         },
         {
@@ -257,7 +265,8 @@
             "category": "CSS",
             "image": "img/projects/animato.png",
             "image2": "img/projects/animato.png",
-            "url": "https://testmycode.ga/Animato/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/Animato/",
             "modal": "#modal-05"
         },
         {
@@ -266,7 +275,8 @@
             "category": "API HTML+CSS JavaScript",
             "image": "img/projects/weather-app.png",
             "image2": "img/projects/weather-app.png",
-            "url": "https://testmycode.ga/weather-app/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/weather-app/",
             "modal": "#modal-04"
         },
         {
@@ -275,7 +285,8 @@
             "category": "HTML+CSS",
             "image": "img/projects/tribute-page.png",
             "image2": "img/projects/tribute-page.png",
-            "url": "https://testmycode.ga/tribute-page/",
+            "source": "https://github.com/SumitK27",
+            "demo": "https://testmycode.ga/tribute-page/",
             "modal": "#modal-03"
         },
         {
@@ -284,7 +295,8 @@
             "category": "HTML+CSS JavaScript Bootstrap PHP AJAX MySQL",
             "image": "img/projects/the-perfect-cup.png",
             "image2": "img/projects/the-perfect-cup.png",
-            "url": "http://testmycode.gq/theperfectcup/",
+            "source": "https://github.com/SumitK27",
+            "demo": "http://testmycode.gq/theperfectcup/",
             "modal": "#modal-02"
         },
         {
@@ -293,7 +305,8 @@
             "category": "Arduino Android Embedded C",
             "image": "img/projects/image-not-available.png",
             "image2": "img/projects/image-not-available.png",
-            "url": "http://testmycode.ga/",
+            "source": "https://github.com/SumitK27",
+            "demo": "http://testmycode.ga/",
             "modal": "#modal-01"
         }
     ],
