@@ -8,7 +8,15 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Services from "./Services";
 
-const Main = ({ config, name, testimonials, projects, services, resume }) => {
+const Main = ({
+    config,
+    name,
+    testimonials,
+    projects,
+    services,
+    education,
+    work,
+}) => {
     return (
         <div className="art-content">
             {/* curtain */}
@@ -30,7 +38,13 @@ const Main = ({ config, name, testimonials, projects, services, resume }) => {
                     {config.counter && <Counter />}
                     {config.services && <Services services={services} />}
                     {config.projects && <Projects projects={projects} />}
-                    {config.experience && <Experience resume={resume} />}
+                    {config.experience && (
+                        <Experience
+                            education={education}
+                            work={work}
+                            config={config}
+                        />
+                    )}
                     {config.testimonial && (
                         <Testimonials testimonials={testimonials} />
                     )}

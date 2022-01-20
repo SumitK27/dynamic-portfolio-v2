@@ -21,7 +21,8 @@ function App() {
                             name={`${data.personal.firstName} ${data.personal.lastName}`}
                             services={data.services}
                             projects={data.projects}
-                            resume={data.resume}
+                            education={data.resume.education}
+                            work={data.resume.work}
                             testimonials={data.testimonials}
                         />
                     </div>
