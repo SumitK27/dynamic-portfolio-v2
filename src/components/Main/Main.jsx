@@ -13,6 +13,7 @@ const Main = ({
     name,
     testimonials,
     projects,
+    categories,
     services,
     education,
     work,
@@ -37,7 +38,9 @@ const Main = ({
                     {config.hero && <Hero />}
                     {config.counter && <Counter />}
                     {config.services && <Services services={services} />}
-                    {config.projects && <Projects projects={projects} />}
+                    {config.projects && (
+                        <Projects projects={projects} categories={categories} />
+                    )}
                     {config.experience && (
                         <Experience
                             education={education}
