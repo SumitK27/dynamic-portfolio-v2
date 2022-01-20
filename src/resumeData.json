@@ -313,28 +313,28 @@
         {
             "name": "Josh D",
             "designation": "CEO, Facebook",
-            "image": "img/face-1.jpg",
+            "image": "img/testimonials/face-1.jpg",
             "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae leo ut est finibus ullamcorper egestas ac sapien. Nulla at ipsum eu lectus semper convallis. Nunc mattis semper lacus, eget hendrerit mi.",
             "rating": 5
         },
         {
             "name": "Edwin Diaz",
             "designation": "CEO, Amazon",
-            "image": "img/face-1.jpg",
+            "image": "img/testimonials/face-2.jpg",
             "review": "Etiam lobortis, tellus a tincidunt placerat, leo tortor faucibus felis, ut venenatis purus odio a leo. Nam pharetra consequat diam quis imperdiet. In nisi tortor, feugiat vitae ornare a, facilisis a tellus.",
             "rating": 4
         },
         {
             "name": "John Doe",
             "designation": "CEO, Netflix",
-            "image": "img/face-1.jpg",
+            "image": "img/testimonials/face-3.jpg",
             "review": "Duis mollis ultricies eleifend. Integer massa nisi, luctus ac quam non, tincidunt volutpat mi. Donec egestas venenatis purus eu laoreet. Sed condimentum urna non velit tempor ullamcorper.",
             "rating": 5
         },
         {
             "name": "Steve Smith",
             "designation": "CEO, Google",
-            "image": "img/face-1.jpg",
+            "image": "img/testimonials/face-4.jpg",
             "review": "Vestibulum pharetra eros sit amet metus varius, a volutpat metus volutpat. Proin ut semper erat. Etiam in massa libero. Mauris bibendum tortor at vulputate vehicula. Sed in bibendum quam.",
             "rating": 5
         }
