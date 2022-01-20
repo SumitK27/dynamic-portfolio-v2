@@ -1,15 +1,15 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ firstName, lastName, avatar, occupations }) => {
     return (
         <div className="art-header">
             <div className="art-avatar">
                 <a
                     data-fancybox="avatar"
-                    href="img/face-1.jpg"
+                    href={avatar}
                     className="art-avatar-curtain"
                 >
-                    <img src="img/face-1.jpg" alt="avatar" />
+                    <img src={avatar} alt="avatar" />
                     <i className="fas fa-expand" />
                 </a>
 
@@ -18,11 +18,19 @@ const Header = () => {
                 </div>
             </div>
 
-            <h5 className="mb-10 art-name">Artur Carter</h5>
+            <h5 className="mb-10 art-name">
+                {firstName} {lastName}
+            </h5>
 
             <div className="art-sm-text">
-                Front-end Developer <br />
-                Ui/UX Designer,{" "}
+                {occupations.map((occupation) => {
+                    return (
+                        <div key={occupation}>
+                            {occupation}
+                            <br />
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );

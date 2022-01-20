@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const About = ({ address, dob, email, contact }) => {
     return (
         <div className="art-table p-15-15">
             <ul>
@@ -9,16 +9,28 @@ const About = () => {
                     <span>23</span>
                 </li>
                 <li>
-                    <h6>Residence:</h6>
-                    <span>Pune, India</span>
+                    <h6>City:</h6>
+                    <span>{address.city}</span>
+                </li>
+                <li>
+                    <h6>State:</h6>
+                    <span>{address.state}</span>
                 </li>
                 <li>
                     <h6>Email:</h6>
-                    <span>sumitkajbaje@gmail.com</span>
+                    <a
+                        href={`mailto:${email}`}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {email}
+                    </a>
                 </li>
                 <li>
                     <h6>Contact:</h6>
-                    <span>+91 976 635 5560</span>
+                    <a href={`tel:${contact}`} rel="noreferrer">
+                        {contact}
+                    </a>
                 </li>
             </ul>
         </div>

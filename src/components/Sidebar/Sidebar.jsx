@@ -3,24 +3,30 @@ import Header from "./Header";
 import Main from "./Main";
 import Social from "./Social";
 
-const Sidebar = () => {
+const Sidebar = ({ personal, social, skills, knowledge }) => {
+    const { firstName, lastName, image, occupation, languages } = personal;
     return (
         <div className="art-info-bar">
-            {/* menu bar frame */}
             <div className="art-info-bar-frame">
-                {/* info bar header */}
                 <div className="art-info-bar-header">
-                    {/* info bar button */}
                     <a className="art-info-bar-btn" href="#.">
-                        {/* icon */}
                         <i className="fas fa-ellipsis-v" />
                     </a>
-                    {/* info bar button end */}
                 </div>
-                {/* info bar header end */}
-                <Header />
-                <Main />
-                <Social />
+                <Header
+                    firstName={firstName}
+                    lastName={lastName}
+                    avatar={image}
+                    occupations={occupation}
+                />
+                <Main
+                    resume={personal.resumeDownload}
+                    personal={personal}
+                    languages={languages}
+                    skills={skills}
+                    knowledge={knowledge}
+                />
+                <Social social={social} />
             </div>
         </div>
     );

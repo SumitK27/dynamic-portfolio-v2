@@ -1,0 +1,312 @@
+{
+    "personal": {
+        "firstName": "Sumit",
+        "lastName": "Kajbaje",
+        "occupation": ["Web developer", "Programmer", "Designer"],
+        "description": "I design and program websites and web applications of all types.",
+        "image": "img/avatars/profile.jpg",
+        "bio": "Self-motivated and hardworking graduate seeking an opportunity to work in a challenging environment to prove my skills and utilize my knowledge for the growth of the organization while at the same time pursuing my individual growth.",
+        "languages": [
+            {
+                "name": "English",
+                "score": "80"
+            },
+            {
+                "name": "Marathi",
+                "score": "75"
+            },
+            {
+                "name": "Hindi",
+                "score": "70"
+            }
+        ],
+        "email": "sumitkajbaje@gmail.com",
+        "phone": "+91 9766355560",
+        "address": {
+            "street": "Sudarshan Nagar",
+            "city": "Chinchwad",
+            "state": "Maharashtra",
+            "zip": "411033"
+        },
+        "dob": "27/12/1999",
+        "website": "https://www.testmycode.ga",
+        "resumeDownload": "https://www.workruit.com/#sumitkajbaje"
+    },
+    "social": [
+        {
+            "name": "linkedin",
+            "url": "http://linkedin.com/in/sumit-kajbaje",
+            "className": "fab fa-linkedin"
+        },
+        {
+            "name": "twitter",
+            "url": "http://twitter.com/SumitKajbaje",
+            "follow": "http://twitter.com/intent/follow?screen_name=sumitkajbaje",
+            "className": "fab fa-twitter"
+        },
+        {
+            "name": "github",
+            "url": "http://github.com/SumitK27",
+            "className": "fab fa-github"
+        },
+        {
+            "name": "discord",
+            "url": "https://discord.com/#4939",
+            "className": "fab fa-discord"
+        }
+    ],
+    "resume": {
+        "education": [
+            {
+                "school": "Siddhant College of Engineering",
+                "degree": "Bachelor Engineering in Computer Engineering",
+                "graduated": "April 2022 (Anticipated)",
+                "description": ""
+            },
+            {
+                "school": "Y. B. Patil Polytechnic",
+                "degree": "Diploma in Computer Engineering",
+                "graduated": "April 2019",
+                "description": "."
+            },
+            {
+                "school": "Jog Education Trust",
+                "degree": "SSC (10th Std.)",
+                "graduated": "April 2016",
+                "description": ""
+            }
+        ],
+        "work": [
+            {
+                "company": "Yamini Innovations",
+                "title": "Web Developer",
+                "years": "August 2021 - Present",
+                "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
+            },
+            {
+                "company": "Experteze, USA",
+                "title": "Full-Stack Web Developer Intern",
+                "years": "April 2021 - June 2021",
+                "description": "Our Web Portal allows our team to collect and manage a patient's health data from one central location, thereby predicting the severity and likelihood of disease based on our findings. • Designing Database. • Developing Backend. • Deploying the site. • Managed a small team"
+            }
+        ],
+        "skills": [
+            {
+                "name": "HTML",
+                "level": "90%"
+            },
+            {
+                "name": "CSS",
+                "level": "55%"
+            },
+            {
+                "name": "JavaScript",
+                "level": "75%"
+            },
+            {
+                "name": "PHP",
+                "level": "80%"
+            },
+            {
+                "name": "Python",
+                "level": "60%"
+            },
+            {
+                "name": "MySQL",
+                "level": "75%"
+            },
+            {
+                "name": "MongoDB",
+                "level": "60%"
+            }
+        ],
+        "knowledge": [
+            {
+                "name": "Frontend",
+                "items": ["HTML", "CSS", "JS", "React"]
+            },
+            {
+                "name": "Backend",
+                "items": ["Node", "Express", "PHP"]
+            },
+            {
+                "name": "Libraries",
+                "items": ["Bootstrap", "TailwindCSS"]
+            },
+            {
+                "name": "Database",
+                "items": ["MySQL", "MongoDB"]
+            },
+            {
+                "name": "Programming",
+                "items": ["Python", "JavaScript"]
+            },
+            {
+                "name": "Designing",
+                "items": ["Photoshop", "XD", "Premiere Pro"]
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "React Weather App",
+                "description": "You can check the current weather in your area and other locations around the world using this web app.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, JavaScript, React, Fetch API",
+                "image": "images/projects/react-weather-app.png",
+                "image2": "images/projects/react-weather-app.png",
+                "url": "https://react-owm-weather-app.netlify.app/",
+                "modal": "#modal-10"
+            },
+            {
+                "title": "Advice App",
+                "description": "A Responsive Random Advice generator build with React.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, React",
+                "image": "images/projects/advice-app.png",
+                "image2": "images/projects/advice-app.png",
+                "url": "https://random-advice-react-app.netlify.app/",
+                "modal": "#modal-10"
+            },
+            {
+                "title": "iiLegal",
+                "description": "With the easy-to-use APIs and plugins, this project will allow you to find your location, change the map style to Satellite, Streets & Navigation or Outdoors. Along with this, we will be able to search for any location (Area) and receive directions from your source to your destination point with the option to choose from Traffic, Driving, Walking, or Cycling.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, JavaScript, React",
+                "image": "images/projects/iilegal.png",
+                "image2": "images/projects/iilegal.png",
+                "url": "https://iilegal.netlify.app/",
+                "modal": "#modal-10"
+            },
+            {
+                "title": "Rock Paper Scissors Lizard Spock",
+                "description": "With the easy-to-use APIs and plugins, this project will allow you to find your location, change the map style to Satellite, Streets & Navigation or Outdoors. Along with this, we will be able to search for any location (Area) and receive directions from your source to your destination point with the option to choose from Traffic, Driving, Walking, or Cycling.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, JavaScript, React",
+                "image": "images/projects/rock-paper-scissors-lizard-spock.png",
+                "image2": "images/projects/rock-paper-scissors-lizard-spock.png",
+                "url": "https://rock-paper-scissors-lizard-spock-project.netlify.app/",
+                "modal": "#modal-09"
+            },
+            {
+                "title": "Google Maps Clone",
+                "description": "With the easy-to-use APIs and plugins, this project will allow you to find your location, change the map style to Satellite, Streets & Navigation or Outdoors. Along with this, we will be able to search for any location (Area) and receive directions from your source to your destination point with the option to choose from Traffic, Driving, Walking, or Cycling.",
+                "category": "Web Development",
+                "tags": "API, HTML, CSS, JavaScript",
+                "image": "images/projects/google-maps-clone.png",
+                "image2": "images/projects/google-maps-clone.png",
+                "url": "https://testmycode.ga/google-maps-clone/",
+                "modal": "#modal-08"
+            },
+            {
+                "title": "Speed Typing",
+                "description": "This simple project allows you to improve your typing speed by taking you under a timer's control. Enjoy hours of enjoyment while you improve your typing speed.",
+                "category": "Web Development",
+                "tags": "Branding, Web Design",
+                "image": "images/projects/speed-typing.png",
+                "image2": "images/projects/speed-typing.png",
+                "url": "https://testmycode.ga/speed-typing/",
+                "modal": "#modal-07"
+            },
+            {
+                "title": "MediCare",
+                "description": "The Web Portal I developed allows users to collect and manage a patient's data from one central location in order to predict the severity and likelihood of diseases based on our findings.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, JS, Bootstrap, PHP, AJAX, MySQL",
+                "image": "images/projects/medicare.png",
+                "image2": "images/projects/medicare.png",
+                "url": "https://testmycode.ga/medicare.png",
+                "modal": "#modal-06"
+            },
+            {
+                "title": "Dynamic Portfolio",
+                "description": "The Web Portal I developed allows users to collect and manage a patient's data from one central location in order to predict the severity and likelihood of diseases based on our findings.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, JS, React",
+                "image": "images/projects/dynamic-portfolio.png",
+                "image2": "images/projects/dynamic-portfolio.png",
+                "url": "https://testmycode.ga/",
+                "modal": "#modal-06"
+            },
+            {
+                "title": "Animato - An imaginary Food site.",
+                "description": "For responsiveness, it uses pure HTML and CSS as layouts and stylings without relying on external CSS libraries.",
+                "category": "Front-end Web Development",
+                "tags": "CSS",
+                "image": "images/projects/animato.png",
+                "image2": "images/projects/animato.png",
+                "url": "https://testmycode.ga/Animato/",
+                "modal": "#modal-05"
+            },
+            {
+                "title": "Weather App",
+                "description": "Gained an understanding of APIs and Geolocation with JavaScript.",
+                "category": "Illustrator",
+                "tags": "API, HTML, CSS, JS",
+                "image": "images/projects/weather-app.png",
+                "image2": "images/projects/weather-app.png",
+                "url": "https://testmycode.ga/weather-app/",
+                "modal": "#modal-04"
+            },
+            {
+                "title": "Tribute Page",
+                "description": "Frictional Coffee site.",
+                "category": "Web Design",
+                "tags": "HTML, CSS",
+                "image": "images/projects/tribute-page.png",
+                "image2": "images/projects/tribute-page.png",
+                "url": "https://testmycode.ga/tribute-page/",
+                "modal": "#modal-03"
+            },
+            {
+                "title": "The Perfect Cup",
+                "description": "As I learned Web Development, I created it using Backend Programming and integrated it with a database and e-mail service as I learned Web Development.",
+                "category": "Web Development",
+                "tags": "HTML, CSS, JS, Bootstrap, PHP, AJAX, MySQL",
+                "image": "images/projects/the-perfect-cup.png",
+                "image2": "images/projects/the-perfect-cup.png",
+                "url": "http://testmycode.gq/theperfectcup/",
+                "modal": "#modal-02"
+            },
+            {
+                "title": "Android Controlled Robotic Vehicle",
+                "description": "Through Bluetooth communications, interface buttons, and voice commands, the Android app enables users to control the robot from a long distance.",
+                "category": "IoT",
+                "tags": "Arduino, Android, Embedded C",
+                "image": "images/projects/image-not-available.png",
+                "image2": "images/projects/image-not-available.png",
+                "url": "http://testmycode.ga/",
+                "modal": "#modal-01"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "user": "Josh D",
+                "designation": "CEO, Facebook",
+                "image": "images/avatars/user-02.jpg",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae leo ut est finibus ullamcorper egestas ac sapien. Nulla at ipsum eu lectus semper convallis. Nunc mattis semper lacus, eget hendrerit mi. Sed vulputate, erat sed lacinia aliquet, nisl tortor lacinia ligula, vitae gravida justo libero at ligula."
+            },
+            {
+                "user": "Edwin Diaz",
+                "designation": "CEO, Amazon",
+                "image": "images/avatars/user-03.jpg",
+                "text": "Etiam lobortis, tellus a tincidunt placerat, leo tortor faucibus felis, ut venenatis purus odio a leo. Nam pharetra consequat diam quis imperdiet. In nisi tortor, feugiat vitae ornare a, facilisis a tellus. Donec erat tortor, maximus eu congue id, posuere ac velit. Cras laoreet quam enim, cursus mollis risus sagittis vitae."
+            },
+            {
+                "user": "John Doe",
+                "designation": "CEO, Netflix",
+                "image": "images/avatars/user-04.jpg",
+                "text": "Duis mollis ultricies eleifend. Integer massa nisi, luctus ac quam non, tincidunt volutpat mi. Donec egestas venenatis purus eu laoreet. Sed condimentum urna non velit tempor ullamcorper. Nam et nisi dignissim, vulputate nulla non, luctus urna. Maecenas aliquet et eros in eleifend."
+            },
+            {
+                "user": "Steve Smith",
+                "designation": "CEO, Google",
+                "image": "images/avatars/user-05.jpg",
+                "text": "Vestibulum pharetra eros sit amet metus varius, a volutpat metus volutpat. Proin ut semper erat. Etiam in massa libero. Mauris bibendum tortor at vulputate vehicula. Sed in bibendum quam."
+            }
+        ]
+    }
+}

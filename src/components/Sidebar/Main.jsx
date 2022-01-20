@@ -5,22 +5,33 @@ import TechSkills from "./TechSkills";
 import KnowledgeList from "./KnowledgeList";
 import Resume from "./Resume";
 
-const Main = () => {
+const Main = ({
+    resume,
+    personal: { address, dob, email, phone: contact },
+    languages,
+    skills,
+    knowledge,
+}) => {
     return (
         <div id="scrollbar2" className="art-scroll-frame">
-            <About />
+            <About
+                address={address}
+                dob={dob}
+                email={email}
+                contact={contact}
+            />
             <div className="art-ls-divider" />
 
-            <Languages />
+            <Languages languages={languages} />
             <div className="art-ls-divider" />
 
-            <TechSkills />
+            <TechSkills skills={skills} />
             <div className="art-ls-divider" />
 
-            <KnowledgeList />
+            <KnowledgeList knowledge={knowledge} />
             <div className="art-ls-divider" />
 
-            <Resume />
+            <Resume resume={resume} />
         </div>
     );
 };

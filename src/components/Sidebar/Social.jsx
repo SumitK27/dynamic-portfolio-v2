@@ -1,20 +1,20 @@
 import React from "react";
 
-const Social = () => {
+const Social = ({ social }) => {
     return (
         <div className="art-ls-social">
-            <a href="#." target="_blank">
-                <i className="fab fa-twitter" />
-            </a>
-            <a href="#." target="_blank">
-                <i className="fab fa-linkedin" />
-            </a>
-            <a href="#." target="_blank">
-                <i className="fab fa-discord" />
-            </a>
-            <a href="#." target="_blank">
-                <i className="fab fa-github" />
-            </a>
+            {social.map((media) => {
+                return (
+                    <a
+                        href={media.url}
+                        key={media.name}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className={media.className} />
+                    </a>
+                );
+            })}
         </div>
     );
 };

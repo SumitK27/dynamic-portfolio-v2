@@ -1,16 +1,18 @@
 import React from "react";
 
-const KnowledgeList = () => {
+const KnowledgeList = ({ knowledge }) => {
     return (
         <ul className="art-knowledge-list p-15-0">
-            {/* list item */}
-            <li>Bootstrap, Materialize</li>
-            {/* list item */}
-            <li>Stylus, Sass, Less</li>
-            {/* list item */}
-            <li>Gulp, Webpack, Grunt</li>
-            {/* list item */}
-            <li>GIT knowledge</li>
+            {knowledge.map((know) => (
+                <li key={know.name}>
+                    {know.name}
+                    <ul>
+                        {know.items.map((item) => (
+                            <li key={item}>{item}</li>
+                        ))}
+                    </ul>
+                </li>
+            ))}
         </ul>
     );
 };
