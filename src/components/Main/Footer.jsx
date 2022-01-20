@@ -1,11 +1,11 @@
 import React from "react";
 
-const Footer = ({ firstName, lastName }) => {
+const Footer = ({ name }) => {
     return (
         <div className="container-fluid">
             <footer>
                 <div>
-                    © {new Date().getFullYear()} {firstName} {lastName}
+                    © {new Date().getFullYear()} {name}
                 </div>
             </footer>
         </div>

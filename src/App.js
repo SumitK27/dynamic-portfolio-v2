@@ -16,7 +16,14 @@ function App() {
                             skills={data.resume.skills}
                             knowledge={data.resume.knowledge}
                         />
-                        <Main config={data.config} />
+                        <Main
+                            config={data.config}
+                            name={`${data.personal.firstName} ${data.personal.lastName}`}
+                            services={data.services}
+                            projects={data.projects}
+                            resume={data.resume}
+                            testimonials={data.testimonials}
+                        />
                     </div>
                 </div>
                 <PreLoader

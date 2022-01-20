@@ -5,9 +5,10 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import Footer from "./Footer";
+import Testimonials from "./Testimonials";
 import Services from "./Services";
 
-const Main = () => {
+const Main = ({ config, name, testimonials, projects, services, resume }) => {
     return (
         <div className="art-content">
             {/* curtain */}
@@ -20,20 +21,21 @@ const Main = () => {
             >
                 {/* overlay */}
                 <div className="art-top-bg-overlay" />
-                {/* overlay end */}
             </div>
-            {/* top background end */}
 
             {/* swup container */}
             <div className="transition-fade" id="swup">
                 <div id="scrollbar" className="art-scroll-frame">
-                    <Hero />
-                    <Counter />
-                    <Services />
-                    <Projects />
-                    <Experience />
-                    <Contact />
-                    <Footer firstName="Sumit" lastName="Kajbaje" />
+                    {config.hero && <Hero />}
+                    {config.counter && <Counter />}
+                    {config.services && <Services services={services} />}
+                    {config.projects && <Projects projects={projects} />}
+                    {config.experience && <Experience resume={resume} />}
+                    {config.testimonial && (
+                        <Testimonials testimonials={testimonials} />
+                    )}
+                    {config.contact && <Contact />}
+                    <Footer name={name} />
                 </div>
             </div>
         </div>
