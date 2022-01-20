@@ -6,7 +6,12 @@ const About = ({ address, dob, email, contact }) => {
             <ul>
                 <li>
                     <h6>Age:</h6>
-                    <span>23</span>
+                    <span>
+                        {Math.abs(
+                            new Date(dob).getFullYear() -
+                                new Date().getFullYear()
+                        )}
+                    </span>
                 </li>
                 <li>
                     <h6>City:</h6>
