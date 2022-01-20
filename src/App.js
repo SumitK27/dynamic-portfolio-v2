@@ -16,7 +16,7 @@ function App() {
                             skills={data.resume.skills}
                             knowledge={data.resume.knowledge}
                         />
-                        <Main />
+                        <Main config={data.config} />
                     </div>
                 </div>
                 <PreLoader

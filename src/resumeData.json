@@ -1,4 +1,9 @@
 {
+    "config": {
+        "education": false,
+        "work": false,
+        "testimonial": true
+    },
     "personal": {
         "firstName": "Sumit",
         "lastName": "Kajbaje",
@@ -28,7 +33,7 @@
             "state": "Maharashtra",
             "zip": "411033"
         },
-        "dob": "27/12/1999",
+        "dob": "12/27/1999",
         "website": "https://www.testmycode.ga",
         "resumeDownload": "https://www.workruit.com/#sumitkajbaje"
     },
