@@ -59,18 +59,18 @@ const Projects = ({ projects, categories }) => {
                                 <a
                                     href={project.source}
                                     target="_blank"
-                                    className="art-link art-color-link art-w-chevron"
+                                    className="art-link art-color-link fas fa-code"
                                     rel="noreferrer"
                                 >
-                                    Source Code
+                                    &nbsp; Source Code
                                 </a>
                                 <a
                                     href={project.demo}
                                     target="_blank"
-                                    className="art-link art-color-link art-w-chevron"
+                                    className="art-link art-color-link fas fa-link"
                                     rel="noreferrer"
                                 >
-                                    Demo
+                                    &nbsp; Demo
                                 </a>
                             </div>
                         </div>
