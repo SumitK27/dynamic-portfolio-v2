@@ -29,7 +29,11 @@ const Education = ({ education }) => {
                                     </span>
                                 </div>
                             </div>
-                            <p>{school.description}</p>
+                            <p
+                                dangerouslySetInnerHTML={{
+                                    __html: school.description,
+                                }}
+                            />
                         </div>
                     </div>
                 ))}

@@ -29,7 +29,11 @@ const Work = ({ work }) => {
                                     </span>
                                 </div>
                             </div>
-                            <p>{company.description}</p>
+                            <p
+                                dangerouslySetInnerHTML={{
+                                    __html: company.description,
+                                }}
+                            />
                         </div>
                     </div>
                 ))}
