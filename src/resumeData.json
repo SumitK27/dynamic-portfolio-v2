@@ -4,6 +4,7 @@
         "counter": false,
         "services": true,
         "projects": true,
+        "certification": true,
         "experience": true,
         "education": true,
         "work": true,
@@ -34,7 +35,7 @@
             }
         ],
         "email": "sumitkajbaje@gmail.com",
-        "phone": "+91 9766355560",
+        "phone": "_91 9766355560",
         "address": {
             "street": "Sudarshan Nagar",
             "city": "Chinchwad",
@@ -162,6 +163,27 @@
         {
             "title": "Title 2",
             "organization": "Org 2",
+            "issueDate": "Jan 21",
+            "id": "RloUcg",
+            "url": "http://example.com"
+        },
+        {
+            "title": "Title 3",
+            "organization": "Org 3",
+            "issueDate": "Jan 21",
+            "id": "RloUcg",
+            "url": "http://example.com"
+        },
+        {
+            "title": "Title 4",
+            "organization": "Org 4",
+            "issueDate": "Jan 21",
+            "id": "RloUcg",
+            "url": "http://example.com"
+        },
+        {
+            "title": "Title 5",
+            "organization": "Org 5",
             "issueDate": "Jan 20",
             "id": "XyzQiz",
             "url": "http://example.com"
@@ -223,7 +245,7 @@
             "items": ["Photoshop", "XD", "Premiere Pro"]
         }
     ],
-    "categories": ["NodeJS", "API", "PHP", "ReactJS", "JavaScript", "HTML+CSS"],
+    "categories": ["NodeJS", "API", "PHP", "ReactJS", "JavaScript", "HTML_CSS"],
     "projects": [
         {
             "title": "React Weather App",
@@ -232,8 +254,7 @@
             "image": "img/projects/react-weather-app.png",
             "image2": "img/projects/react-weather-app.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://react-owm-weather-app.netlify.app/",
-            "modal": "#modal-10"
+            "demo": "https://react-owm-weather-app.netlify.app/"
         },
         {
             "title": "Advice App",
@@ -242,8 +263,7 @@
             "image": "img/projects/advice-app.png",
             "image2": "img/projects/advice-app.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://random-advice-react-app.netlify.app/",
-            "modal": "#modal-10"
+            "demo": "https://random-advice-react-app.netlify.app/"
         },
         {
             "title": "iiLegal",
@@ -252,8 +272,7 @@
             "image": "img/projects/iilegal.png",
             "image2": "img/projects/iilegal.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://iilegal.netlify.app/",
-            "modal": "#modal-10"
+            "demo": "https://iilegal.netlify.app/"
         },
         {
             "title": "Rock Paper Scissors Lizard Spock",
@@ -262,98 +281,88 @@
             "image": "img/projects/rock-paper-scissors-lizard-spock.png",
             "image2": "img/projects/rock-paper-scissors-lizard-spock.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://rock-paper-scissors-lizard-spock-project.netlify.app/",
-            "modal": "#modal-09"
+            "demo": "https://rock-paper-scissors-lizard-spock-project.netlify.app/"
         },
         {
             "title": "Google Maps Clone",
             "description": "With the easy-to-use APIs and plugins, this project will allow you to find your location, change the map style to Satellite, Streets & Navigation or Outdoors. Along with this, we will be able to search for any location (Area) and receive directions from your source to your destination point with the option to choose from Traffic, Driving, Walking, or Cycling.",
-            "category": "HTML+CSS JavaScript API",
+            "category": "HTML_CSS JavaScript API",
             "image": "img/projects/google-maps-clone.png",
             "image2": "img/projects/google-maps-clone.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/google-maps-clone/",
-            "modal": "#modal-08"
+            "demo": "https://testmycode.ga/google-maps-clone/"
         },
         {
             "title": "Speed Typing",
             "description": "This simple project allows you to improve your typing speed by taking you under a timer's control. Enjoy hours of enjoyment while you improve your typing speed.",
-            "category": "HTML+CSS JavaScript API",
+            "category": "HTML_CSS JavaScript API",
             "image": "img/projects/speed-typing.png",
             "image2": "img/projects/speed-typing.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/speed-typing/",
-            "modal": "#modal-07"
+            "demo": "https://testmycode.ga/speed-typing/"
         },
         {
             "title": "MediCare",
             "description": "The Web Portal I developed allows users to collect and manage a patient's data from one central location in order to predict the severity and likelihood of diseases based on our findings.",
-            "category": "HTML+CSS JavaScript Bootstrap PHP AJAX MySQL",
+            "category": "Major HTML_CSS JavaScript Bootstrap PHP AJAX MySQL",
             "image": "img/projects/medicare.png",
             "image2": "img/projects/medicare.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/medicare.png",
-            "modal": "#modal-06"
+            "demo": "https://testmycode.ga/medicare.png"
         },
         {
             "title": "Dynamic Portfolio",
             "description": "The Web Portal I developed allows users to collect and manage a patient's data from one central location in order to predict the severity and likelihood of diseases based on our findings.",
-            "category": "HTML, CSS, JS, ReactJS",
+            "category": "HTML_CSS, JS, ReactJS",
             "image": "img/projects/dynamic-portfolio.png",
             "image2": "img/projects/dynamic-portfolio.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/",
-            "modal": "#modal-06"
+            "demo": "https://testmycode.ga/"
         },
         {
             "title": "Animato - An imaginary Food site.",
             "description": "For responsiveness, it uses pure HTML and CSS as layouts and stylings without relying on external CSS libraries.",
-            "category": "CSS",
+            "category": "HTML_CSS",
             "image": "img/projects/animato.png",
             "image2": "img/projects/animato.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/Animato/",
-            "modal": "#modal-05"
+            "demo": "https://testmycode.ga/Animato/"
         },
         {
             "title": "Weather App",
             "description": "Gained an understanding of APIs and Geolocation with JavaScript.",
-            "category": "API HTML+CSS JavaScript",
+            "category": "API HTML_CSS JavaScript",
             "image": "img/projects/weather-app.png",
             "image2": "img/projects/weather-app.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/weather-app/",
-            "modal": "#modal-04"
+            "demo": "https://testmycode.ga/weather-app/"
         },
         {
             "title": "Tribute Page",
             "description": "Frictional Coffee site.",
-            "category": "HTML+CSS",
+            "category": "HTML_CSS",
             "image": "img/projects/tribute-page.png",
             "image2": "img/projects/tribute-page.png",
             "source": "https://github.com/SumitK27",
-            "demo": "https://testmycode.ga/tribute-page/",
-            "modal": "#modal-03"
+            "demo": "https://testmycode.ga/tribute-page/"
         },
         {
             "title": "The Perfect Cup",
             "description": "As I learned Web Development, I created it using Backend Programming and integrated it with a database and e-mail service as I learned Web Development.",
-            "category": "HTML+CSS JavaScript Bootstrap PHP AJAX MySQL",
+            "category": "Major HTML_CSS JavaScript Bootstrap PHP AJAX MySQL",
             "image": "img/projects/the-perfect-cup.png",
             "image2": "img/projects/the-perfect-cup.png",
             "source": "https://github.com/SumitK27",
-            "demo": "http://testmycode.gq/theperfectcup/",
-            "modal": "#modal-02"
+            "demo": "http://testmycode.gq/theperfectcup/"
         },
         {
             "title": "Android Controlled Robotic Vehicle",
             "description": "Through Bluetooth communications, interface buttons, and voice commands, the Android app enables users to control the robot from a long distance.",
-            "category": "Arduino Android Embedded C",
+            "category": "Major Arduino Android Embedded C",
             "image": "img/projects/image-not-available.png",
             "image2": "img/projects/image-not-available.png",
             "source": "https://github.com/SumitK27",
-            "demo": "http://testmycode.ga/",
-            "modal": "#modal-01"
+            "demo": "http://testmycode.ga/"
         }
     ],
     "testimonials": [

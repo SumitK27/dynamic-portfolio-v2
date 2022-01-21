@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Services from "./Services";
+import Certification from "./Certification";
 
 const Main = ({
     config,
@@ -14,6 +15,7 @@ const Main = ({
     name,
     rotate,
     testimonials,
+    certification,
     projects,
     categories,
     services,
@@ -49,6 +51,9 @@ const Main = ({
                             work={work}
                             config={config}
                         />
+                    )}
+                    {config.certification && (
+                        <Certification certification={certification} />
                     )}
                     {config.testimonial && (
                         <Testimonials testimonials={testimonials} />
