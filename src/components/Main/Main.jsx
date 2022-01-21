@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Services from "./Services";
 import Certification from "./Certification";
+import Volunteer from "./Volunteer";
 
 const Main = ({
     config,
@@ -21,6 +22,7 @@ const Main = ({
     services,
     education,
     work,
+    volunteer,
 }) => {
     return (
         <div className="art-content">
@@ -55,6 +57,7 @@ const Main = ({
                     {config.certification && (
                         <Certification certification={certification} />
                     )}
+                    {config.volunteer && <Volunteer volunteer={volunteer} />}
                     {config.testimonial && (
                         <Testimonials testimonials={testimonials} />
                     )}

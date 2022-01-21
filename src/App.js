@@ -21,6 +21,7 @@ function App() {
                             rotate={data.dataRotation}
                             heroImg={data.personal.heroImg}
                             name={`${data.personal.firstName} ${data.personal.lastName}`}
+                            volunteer={data.volunteer}
                             services={data.services}
                             certification={data.certification}
                             projects={data.projects}

@@ -7,6 +7,7 @@
         "certification": true,
         "experience": true,
         "education": true,
+        "volunteer": true,
         "work": true,
         "testimonial": false,
         "contact": true
@@ -126,29 +127,29 @@
         {
             "name": "Yamini Innovations",
             "post": "Web Developer",
-            "start": "August 2021",
-            "end": "Present",
+            "start": "Aug 21",
+            "end": "Sept. 21",
             "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
         },
         {
             "name": "Yamini Innovations",
             "post": "Web Developer",
-            "start": "August 2021",
-            "end": "Present",
+            "start": "Aug 21",
+            "end": "Sept. 21",
             "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
         },
         {
             "name": "Yamini Innovations",
             "post": "Web Developer",
-            "start": "August 2021",
-            "end": "Present",
+            "start": "Aug 21",
+            "end": "Sept. 21",
             "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
         },
         {
             "name": "Yamini Innovations",
             "post": "Web Developer",
-            "start": "August 2021",
-            "end": "Present",
+            "start": "Aug 21",
+            "end": "Sept. 21",
             "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
         }
     ],
