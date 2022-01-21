@@ -16,7 +16,14 @@ const Projects = ({ projects, categories }) => {
                                     data-filter="*"
                                     className="art-link art-current"
                                 >
-                                    All Categories
+                                    All
+                                </a>
+                                <a
+                                    href="#."
+                                    data-filter=".Major"
+                                    className="art-link"
+                                >
+                                    Major
                                 </a>
                                 {categories.map((category) => (
                                     <a
