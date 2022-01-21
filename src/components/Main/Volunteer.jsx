@@ -1,6 +1,6 @@
 import React from "react";
 
-const Certification = ({ volunteer }) => {
+const Volunteer = ({ volunteer }) => {
     return (
         <div className="container-fluid">
             <div className="row">
@@ -43,4 +43,4 @@ const Certification = ({ volunteer }) => {
     );
 };
 
-export default Certification;
+export default Volunteer;
