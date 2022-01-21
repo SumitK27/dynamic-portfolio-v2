@@ -13,17 +13,19 @@ function App() {
                         <Sidebar
                             personal={data.personal}
                             social={data.social}
-                            skills={data.resume.skills}
-                            knowledge={data.resume.knowledge}
+                            skills={data.skills}
+                            knowledge={data.knowledge}
                         />
                         <Main
                             config={data.config}
+                            rotate={data.dataRotation}
+                            heroImg={data.personal.heroImg}
                             name={`${data.personal.firstName} ${data.personal.lastName}`}
                             services={data.services}
                             projects={data.projects}
                             categories={data.categories}
-                            education={data.resume.education}
-                            work={data.resume.work}
+                            education={data.education}
+                            work={data.work}
                             testimonials={data.testimonials}
                         />
                     </div>
