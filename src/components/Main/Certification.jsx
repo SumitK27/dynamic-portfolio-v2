@@ -19,13 +19,16 @@ const Certification = ({ certification }) => {
                                     <ul>
                                         <li>
                                             <h4>{certificate.title}</h4>
-                                            <span>{certificate.issueDate}</span>
                                         </li>
                                         <li>
                                             <h6>Issued By:</h6>
                                             <span>
                                                 {certificate.organization}
                                             </span>
+                                        </li>
+                                        <li>
+                                            <h6>Issue Date</h6>
+                                            <span>{certificate.issueDate}</span>
                                         </li>
                                         <li>
                                             <h6>ID:</h6>
