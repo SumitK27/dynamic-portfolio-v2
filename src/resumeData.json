@@ -8,6 +8,7 @@
         "experience": true,
         "education": true,
         "volunteer": true,
+        "awards": true,
         "work": true,
         "testimonial": false,
         "contact": true
@@ -188,6 +189,20 @@
             "issueDate": "Jan 20",
             "id": "XyzQiz",
             "url": "http://example.com"
+        }
+    ],
+    "awards": [
+        {
+            "name": "Animato - Web Design",
+            "by": "Modern College of Engg.",
+            "date": "April 2021",
+            "description": ""
+        },
+        {
+            "name": "Counter Strike",
+            "by": "Y. B. Patil Polytechnic",
+            "date": "Feb 2019",
+            "description": ""
         }
     ],
     "skills": [

@@ -22,6 +22,7 @@ function App() {
                             heroImg={data.personal.heroImg}
                             name={`${data.personal.firstName} ${data.personal.lastName}`}
                             volunteer={data.volunteer}
+                            awards={data.awards}
                             services={data.services}
                             certification={data.certification}
                             projects={data.projects}

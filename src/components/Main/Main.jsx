@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials";
 import Services from "./Services";
 import Certification from "./Certification";
 import Volunteer from "./Volunteer";
+import Awards from "./Awards";
 
 const Main = ({
     config,
@@ -21,6 +22,7 @@ const Main = ({
     categories,
     services,
     education,
+    awards,
     work,
     volunteer,
 }) => {
@@ -57,6 +59,7 @@ const Main = ({
                     {config.certification && (
                         <Certification certification={certification} />
                     )}
+                    {config.awards && <Awards awards={awards} />}
                     {config.volunteer && <Volunteer volunteer={volunteer} />}
                     {config.testimonial && (
                         <Testimonials testimonials={testimonials} />

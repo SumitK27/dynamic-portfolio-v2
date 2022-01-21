@@ -4,10 +4,7 @@ A React-based Portfolio template to make the customization easier.
 
 ## **ToDo**
 
--   [x] Hero Section
 -   [ ] Newsletter
--   [ ] Volunteer
--   [x] Certification
 -   [ ] Contact
 
 ## **Attribute**
