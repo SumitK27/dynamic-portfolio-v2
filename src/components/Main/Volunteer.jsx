@@ -18,13 +18,13 @@ const Volunteer = ({ volunteer }) => {
                                 <div className="art-table">
                                     <ul>
                                         <li>
-                                            <h4>{event.name}</h4>
+                                            <h4>{event.post}</h4>
                                             <span>
                                                 {event.start} - {event.end}
                                             </span>
                                         </li>
                                         <li>
-                                            <h5>{event.post}</h5>
+                                            <h6>{event.name}</h6>
                                         </li>
                                     </ul>
                                     <p
