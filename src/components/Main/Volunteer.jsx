@@ -12,7 +12,7 @@ const Volunteer = ({ volunteer }) => {
                     </div>
                 </div>
                 {volunteer.map((event) => (
-                    <div key={event.title} className="col-lg-4 col-md-6">
+                    <div key={event.name} className="col-lg-4 col-md-6">
                         <div className="art-a art-service-icon-box">
                             <div className="art-service-ib-content">
                                 <div className="art-table">
