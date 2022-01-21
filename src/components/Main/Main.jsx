@@ -10,7 +10,9 @@ import Services from "./Services";
 
 const Main = ({
     config,
+    heroImg,
     name,
+    rotate,
     testimonials,
     projects,
     categories,
@@ -35,7 +37,7 @@ const Main = ({
             {/* swup container */}
             <div className="transition-fade" id="swup">
                 <div id="scrollbar" className="art-scroll-frame">
-                    {config.hero && <Hero />}
+                    {config.hero && <Hero rotate={rotate} heroImg={heroImg} />}
                     {config.counter && <Counter />}
                     {config.services && <Services services={services} />}
                     {config.projects && (

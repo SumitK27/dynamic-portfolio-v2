@@ -10,12 +10,14 @@
         "testimonial": false,
         "contact": true
     },
+    "dataRotation": ["Web Apps", "Scraping Tools", "Discord Bots"],
     "personal": {
         "firstName": "Sumit",
         "lastName": "Kajbaje",
         "occupation": ["Web developer", "Programmer", "Designer"],
         "description": "I design and program websites and web applications of all types.",
         "image": "img/avatars/profile.jpg",
+        "heroImg": "img/face-2.png",
         "bio": "Self-motivated and hardworking graduate seeking an opportunity to work in a challenging environment to prove my skills and utilize my knowledge for the growth of the organization while at the same time pursuing my individual growth.",
         "languages": [
             {
@@ -80,103 +82,147 @@
             "description": "Laborum non in aute est exercitation sit dolor. Cillum anim anim reprehenderit pariatur do est ipsum. Velit excepteur excepteur exercitation nostrud voluptate anim dolor sint ex occaecat enim ex velit id."
         }
     ],
-    "resume": {
-        "education": [
-            {
-                "name": "Siddhant College of Engineering",
-                "degree": "Bachelor Engineering in Computer Engineering",
-                "start": "Aug 2019",
-                "end": "April 2022",
-                "description": "Irure esse nulla et dolor ullamco. Laborum id labore exercitation consectetur irure proident irure. Et officia exercitation labore dolor ex incididunt magna elit dolore laboris."
-            },
-            {
-                "name": "Y. B. Patil Polytechnic",
-                "degree": "Diploma in Computer Engineering",
-                "start": "Jul 2016",
-                "end": "April 2019",
-                "description": "Cillum qui nisi fugiat anim nostrud. Cillum culpa quis aute quis occaecat sunt consequat elit nisi minim. Officia nostrud fugiat pariatur sit cupidatat adipisicing ea adipisicing labore exercitation enim amet. Ullamco eiusmod commodo aliqua id aute qui fugiat."
-            },
-            {
-                "name": "Jog Education Trust",
-                "degree": "SSC (10th Std.)",
-                "start": "June 2015",
-                "end": "April 2016",
-                "description": "Dolor cupidatat exercitation elit adipisicing sunt ea veniam incididunt et ad non aute. Do enim aute esse nostrud fugiat minim. Culpa Lorem incididunt minim laboris duis laboris magna enim excepteur proident eu consectetur aliqua et."
-            }
-        ],
-        "work": [
-            {
-                "name": "Yamini Innovations",
-                "post": "Web Developer",
-                "start": "August 2021",
-                "end": "Present",
-                "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
-            },
-            {
-                "name": "Experteze, USA",
-                "post": "Full-Stack Web Developer Intern",
-                "start": "April 2021",
-                "end": "June 2021",
-                "description": "Our Web Portal allows our team to collect and manage a patient's health data from one central location, thereby predicting the severity and likelihood of disease based on our findings. • Designing Database. • Developing Backend. • Deploying the site. • Managed a small team"
-            }
-        ],
-        "skills": [
-            {
-                "name": "HTML",
-                "level": "90%"
-            },
-            {
-                "name": "CSS",
-                "level": "55%"
-            },
-            {
-                "name": "JavaScript",
-                "level": "75%"
-            },
-            {
-                "name": "PHP",
-                "level": "80%"
-            },
-            {
-                "name": "Python",
-                "level": "60%"
-            },
-            {
-                "name": "MySQL",
-                "level": "75%"
-            },
-            {
-                "name": "MongoDB",
-                "level": "60%"
-            }
-        ],
-        "knowledge": [
-            {
-                "name": "Frontend",
-                "items": ["HTML", "CSS", "JS", "React"]
-            },
-            {
-                "name": "Backend",
-                "items": ["Node", "Express", "PHP"]
-            },
-            {
-                "name": "Libraries",
-                "items": ["Bootstrap", "TailwindCSS"]
-            },
-            {
-                "name": "Database",
-                "items": ["MySQL", "MongoDB"]
-            },
-            {
-                "name": "Programming",
-                "items": ["Python", "JavaScript"]
-            },
-            {
-                "name": "Designing",
-                "items": ["Photoshop", "XD", "Premiere Pro"]
-            }
-        ]
-    },
+    "education": [
+        {
+            "name": "Siddhant College of Engineering",
+            "degree": "Bachelor Engineering in Computer Engineering",
+            "start": "Aug 2019",
+            "end": "April 2022",
+            "description": "Irure esse nulla et dolor ullamco. Laborum id labore exercitation consectetur irure proident irure. Et officia exercitation labore dolor ex incididunt magna elit dolore laboris."
+        },
+        {
+            "name": "Y. B. Patil Polytechnic",
+            "degree": "Diploma in Computer Engineering",
+            "start": "Jul 2016",
+            "end": "April 2019",
+            "description": "Cillum qui nisi fugiat anim nostrud. Cillum culpa quis aute quis occaecat sunt consequat elit nisi minim. Officia nostrud fugiat pariatur sit cupidatat adipisicing ea adipisicing labore exercitation enim amet. Ullamco eiusmod commodo aliqua id aute qui fugiat."
+        },
+        {
+            "name": "Jog Education Trust",
+            "degree": "SSC (10th Std.)",
+            "start": "June 2015",
+            "end": "April 2016",
+            "description": "Dolor cupidatat exercitation elit adipisicing sunt ea veniam incididunt et ad non aute. Do enim aute esse nostrud fugiat minim. Culpa Lorem incididunt minim laboris duis laboris magna enim excepteur proident eu consectetur aliqua et."
+        }
+    ],
+    "work": [
+        {
+            "name": "Yamini Innovations",
+            "post": "Web Developer",
+            "start": "August 2021",
+            "end": "Present",
+            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
+        },
+        {
+            "name": "Experteze, USA",
+            "post": "Full-Stack Web Developer Intern",
+            "start": "April 2021",
+            "end": "June 2021",
+            "description": "Our Web Portal allows our team to collect and manage a patient's health data from one central location, thereby predicting the severity and likelihood of disease based on our findings. • Designing Database. • Developing Backend. • Deploying the site. • Managed a small team"
+        }
+    ],
+    "volunteer": [
+        {
+            "name": "Yamini Innovations",
+            "post": "Web Developer",
+            "start": "August 2021",
+            "end": "Present",
+            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
+        },
+        {
+            "name": "Yamini Innovations",
+            "post": "Web Developer",
+            "start": "August 2021",
+            "end": "Present",
+            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
+        },
+        {
+            "name": "Yamini Innovations",
+            "post": "Web Developer",
+            "start": "August 2021",
+            "end": "Present",
+            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
+        },
+        {
+            "name": "Yamini Innovations",
+            "post": "Web Developer",
+            "start": "August 2021",
+            "end": "Present",
+            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues • Used WordPress for boosting the development time. • Increased performance & functionality than older website • Made website SEO and User friendly."
+        }
+    ],
+    "certification": [
+        {
+            "title": "Title 1",
+            "organization": "Org 1",
+            "issueDate": "Jan 21",
+            "id": "RloUcg",
+            "url": "http://example.com"
+        },
+        {
+            "title": "Title 2",
+            "organization": "Org 2",
+            "issueDate": "Jan 20",
+            "id": "XyzQiz",
+            "url": "http://example.com"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML",
+            "level": "90%"
+        },
+        {
+            "name": "CSS",
+            "level": "55%"
+        },
+        {
+            "name": "JavaScript",
+            "level": "75%"
+        },
+        {
+            "name": "PHP",
+            "level": "80%"
+        },
+        {
+            "name": "Python",
+            "level": "60%"
+        },
+        {
+            "name": "MySQL",
+            "level": "75%"
+        },
+        {
+            "name": "MongoDB",
+            "level": "60%"
+        }
+    ],
+    "knowledge": [
+        {
+            "name": "Frontend",
+            "items": ["HTML", "CSS", "JS", "React"]
+        },
+        {
+            "name": "Backend",
+            "items": ["Node", "Express", "PHP"]
+        },
+        {
+            "name": "Libraries",
+            "items": ["Bootstrap", "TailwindCSS"]
+        },
+        {
+            "name": "Database",
+            "items": ["MySQL", "MongoDB"]
+        },
+        {
+            "name": "Programming",
+            "items": ["Python", "JavaScript"]
+        },
+        {
+            "name": "Designing",
+            "items": ["Photoshop", "XD", "Premiere Pro"]
+        }
+    ],
     "categories": ["NodeJS", "API", "PHP", "ReactJS", "JavaScript", "HTML+CSS"],
     "projects": [
         {
