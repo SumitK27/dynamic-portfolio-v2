@@ -9,7 +9,46 @@ const TechSkills = ({ skills }) => {
                         <h6>{skill.name}</h6>
                     </div>
                     <div className="art-line-progress">
-                        <div id={`lineprog${i + 1}`} />
+                        <div style={{ position: "relative" }}>
+                            <svg
+                                viewBox="0 0 100 1.72"
+                                preserveAspectRatio="none"
+                                style={{ width: "100%", height: "100%" }}
+                            >
+                                <path
+                                    d="M 0,0.86 L 100,0.86"
+                                    stroke="#eee"
+                                    stroke-width="1.72"
+                                    fill-opacity="0"
+                                ></path>
+                                <path
+                                    d="M 0,0.86 L 100,0.86"
+                                    stroke="#555"
+                                    stroke-width="1.72"
+                                    fill-opacity="0"
+                                    style={{
+                                        "stroke-dasharray": `${
+                                            1.1 * skill.level
+                                        }, 100`,
+                                        "stroke-dashoffset": "10",
+                                    }}
+                                ></path>
+                            </svg>
+                            <div
+                                class="progressbar-text"
+                                style={{
+                                    position: "absolute",
+                                    left: "50%",
+                                    top: "50%",
+                                    padding: "0px",
+                                    margin: "0px",
+                                    transform: "translate(-50%, -50%)",
+                                    color: "rgb(85, 85, 85)",
+                                }}
+                            >
+                                {skill.level} %
+                            </div>
+                        </div>
                     </div>
                 </div>
             ))}
