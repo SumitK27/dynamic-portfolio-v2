@@ -22,15 +22,13 @@ const TechSkills = ({ skills }) => {
                                     fill-opacity="0"
                                 ></path>
                                 <path
+                                    className="progressbar"
                                     d="M 0,0.86 L 100,0.86"
                                     stroke="#555"
                                     stroke-width="1.72"
                                     fill-opacity="0"
                                     style={{
-                                        "stroke-dasharray": `${
-                                            1.1 * skill.level
-                                        }, 100`,
-                                        "stroke-dashoffset": "10",
+                                        "stroke-dasharray": `${skill.level}, 100`,
                                     }}
                                 ></path>
                             </svg>

@@ -1383,6 +1383,34 @@ info bar
     stroke: #ffc107;
 }
 
+.progressbar {
+    animation: dash 0.5s linear forwards;
+    animation-delay: 2s;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 20;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.progressbar-circle {
+    animation: load 0.5s linear forwards;
+    animation-delay: 2s;
+}
+
+@keyframes load {
+    from {
+        stroke-dashoffset: 100;
+    }
+    to {
+        stroke-dashoffset: 50;
+    }
+}
+
 /* ------------------------------
 
 menu bar

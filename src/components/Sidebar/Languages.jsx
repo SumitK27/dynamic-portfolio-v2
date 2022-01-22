@@ -20,6 +20,7 @@ const Languages = ({ languages }) => {
                                 fill-opacity="0"
                             ></path>
                             <path
+                                className="progressbar-circle"
                                 d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93"
                                 stroke="#555"
                                 stroke-width="7"
@@ -28,7 +29,6 @@ const Languages = ({ languages }) => {
                                     "stroke-dasharray": `${
                                         (360 / 100) * language.score
                                     }, ${(360 / 100) * language.score}`,
-                                    "stroke-dashoffset": "29.2273",
                                 }}
                             ></path>
                         </svg>
