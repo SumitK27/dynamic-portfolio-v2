@@ -30,6 +30,7 @@ function App() {
                             education={data.education}
                             work={data.work}
                             testimonials={data.testimonials}
+                            personal={data.personal}
                         />
                     </div>
                 </div>

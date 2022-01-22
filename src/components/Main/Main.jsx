@@ -25,6 +25,7 @@ const Main = ({
     awards,
     work,
     volunteer,
+    personal,
 }) => {
     return (
         <div className="art-content">
@@ -64,7 +65,7 @@ const Main = ({
                     {config.testimonial && (
                         <Testimonials testimonials={testimonials} />
                     )}
-                    {config.contact && <Contact />}
+                    {config.contact && <Contact personal={personal} />}
                     <Footer name={name} />
                 </div>
             </div>

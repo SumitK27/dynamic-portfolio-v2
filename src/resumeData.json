@@ -38,7 +38,12 @@
         ],
         "email": "sumitkajbaje@gmail.com",
         "phone": "+91 9766355560",
+        "phone_office": "",
+        "phone_support": "",
+        "telegram": "",
+        "skype": "",
         "address": {
+            "country": "India",
             "street": "Sudarshan Nagar",
             "city": "Chinchwad",
             "state": "Maharashtra",
@@ -238,11 +243,11 @@
     "knowledge": [
         {
             "name": "Frontend",
-            "items": ["HTML", "CSS", "JS", "React"]
+            "items": ["HTML, CSS, JS", "React"]
         },
         {
             "name": "Backend",
-            "items": ["Node", "Express", "PHP"]
+            "items": ["Node, Express", "PHP"]
         },
         {
             "name": "Libraries",
@@ -258,7 +263,7 @@
         },
         {
             "name": "Designing",
-            "items": ["Photoshop", "XD", "Premiere Pro"]
+            "items": ["Photoshop, XD, Premiere Pro"]
         }
     ],
     "categories": ["NodeJS", "API", "PHP", "ReactJS", "JavaScript", "HTML_CSS"],
@@ -266,7 +271,7 @@
         {
             "title": "React Weather App",
             "description": "You can check the current weather in your area and other locations around the world using this web app.",
-            "category": "HTML+CSS JavaScript ReactJS API",
+            "category": "HTML_CSS JavaScript ReactJS API",
             "image": "img/projects/react-weather-app.png",
             "image2": "img/projects/react-weather-app.png",
             "source": "https://github.com/SumitK27",
@@ -275,7 +280,7 @@
         {
             "title": "Advice App",
             "description": "A Responsive Random Advice generator build with ReactJS.",
-            "category": "HTML+CSS ReactJS",
+            "category": "HTML_CSS ReactJS",
             "image": "img/projects/advice-app.png",
             "image2": "img/projects/advice-app.png",
             "source": "https://github.com/SumitK27",
@@ -284,7 +289,7 @@
         {
             "title": "iiLegal",
             "description": "Allow you to find your location, change the map style to Satellite, Streets & Navigation or Outdoors. Along with this, we will be able to search for any location (Area) and receive directions from your source to your destination point with the option to choose from Traffic, Driving, Walking, or Cycling.",
-            "category": "HTML+CSS JavaScript ReactJS",
+            "category": "HTML_CSS JavaScript ReactJS",
             "image": "img/projects/iilegal.png",
             "image2": "img/projects/iilegal.png",
             "source": "https://github.com/SumitK27",
@@ -293,7 +298,7 @@
         {
             "title": "Rock Paper Scissors Lizard Spock",
             "description": "With the easy-to-use APIs and plugins, this project will allow you to find your location, change the map style to Satellite, Streets & Navigation or Outdoors. Along with this, we will be able to search for any location (Area) and receive directions from your source to your destination point with the option to choose from Traffic, Driving, Walking, or Cycling.",
-            "category": "HTML+CSS JavaScript ReactJS",
+            "category": "HTML_CSS JavaScript ReactJS",
             "image": "img/projects/rock-paper-scissors-lizard-spock.png",
             "image2": "img/projects/rock-paper-scissors-lizard-spock.png",
             "source": "https://github.com/SumitK27",
