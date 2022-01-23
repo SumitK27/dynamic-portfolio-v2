@@ -18,22 +18,22 @@ const TechSkills = ({ skills }) => {
                                 <path
                                     d="M 0,0.86 L 100,0.86"
                                     stroke="#eee"
-                                    stroke-width="1.72"
-                                    fill-opacity="0"
+                                    strokeWidth="1.72"
+                                    fillOpacity="0"
                                 ></path>
                                 <path
                                     className="progressbar"
                                     d="M 0,0.86 L 100,0.86"
                                     stroke="#555"
-                                    stroke-width="1.72"
-                                    fill-opacity="0"
+                                    strokeWidth="1.72"
+                                    fillOpacity="0"
                                     style={{
-                                        "stroke-dasharray": `${skill.level}, 100`,
+                                        strokeDasharray: `${skill.level}, 100`,
                                     }}
                                 ></path>
                             </svg>
                             <div
-                                class="progressbar-text"
+                                className="progressbar-text"
                                 style={{
                                     position: "absolute",
                                     left: "50%",

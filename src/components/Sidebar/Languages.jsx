@@ -16,24 +16,24 @@ const Languages = ({ languages }) => {
                             <path
                                 d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93"
                                 stroke="#eee"
-                                stroke-width="7"
-                                fill-opacity="0"
+                                strokeWidth="7"
+                                fillOpacity="0"
                             ></path>
                             <path
                                 className="progressbar-circle"
                                 d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93"
                                 stroke="#555"
-                                stroke-width="7"
-                                fill-opacity="0"
+                                strokeWidth="7"
+                                fillOpacity="0"
                                 style={{
-                                    "stroke-dasharray": `${
+                                    strokeDasharray: `${
                                         (360 / 100) * language.score
                                     }, ${(360 / 100) * language.score}`,
                                 }}
                             ></path>
                         </svg>
                         <div
-                            class="progressbar-text"
+                            className="progressbar-text"
                             style={{
                                 position: "absolute",
                                 left: "50%",
