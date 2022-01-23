@@ -47,15 +47,15 @@ const Main = ({
                     {config.hero && <Hero rotate={rotate} heroImg={heroImg} />}
                     {config.counter && <Counter />}
                     {config.services && <Services services={services} />}
-                    {config.projects && (
-                        <Projects projects={projects} categories={categories} />
-                    )}
                     {config.experience && (
                         <Experience
                             education={education}
                             work={work}
                             config={config}
                         />
+                    )}
+                    {config.projects && (
+                        <Projects projects={projects} categories={categories} />
                     )}
                     {config.certification && (
                         <Certification certification={certification} />

@@ -2,7 +2,7 @@
     "config": {
         "hero": true,
         "counter": false,
-        "services": true,
+        "services": false,
         "projects": true,
         "certification": true,
         "experience": true,
@@ -13,14 +13,18 @@
         "testimonial": false,
         "contact": true
     },
-    "dataRotation": ["Web Apps", "Scraping Tools", "Discord Bots"],
+    "dataRotation": [
+        "Full-Stack Web Apps",
+        "Custom Scraping Tools",
+        "Beginner level Discord Bots"
+    ],
     "personal": {
         "firstName": "Sumit",
         "lastName": "Kajbaje",
         "occupation": ["Web developer", "Programmer", "Designer"],
         "description": "I design and program websites and web applications of all types.",
         "image": "img/avatars/profile.jpg",
-        "heroImg": "img/face-2.png",
+        "heroImg": "img/avatars/hero.png",
         "bio": "Self-motivated and hardworking graduate seeking an opportunity to work in a challenging environment to prove my skills and utilize my knowledge for the growth of the organization while at the same time pursuing my individual growth.",
         "languages": [
             {
@@ -78,7 +82,7 @@
     ],
     "services": [
         {
-            "name": "Web Development",
+            "name": "Full-Stack Development",
             "description": "Veniam voluptate adipisicing tempor minim aliqua magna commodo nisi Lorem in proident deserunt magna occaecat. Eu quis irure eu occaecat labore sint incididunt non fugiat adipisicing anim cillum. Officia Lorem cillum esse irure elit id culpa mollit."
         },
         {
@@ -93,45 +97,45 @@
     "education": [
         {
             "name": "Siddhant College of Engineering",
-            "degree": "Bachelor Engineering in Computer Engineering",
+            "degree": "Bachelor of Engineering (Computer)",
             "start": "Aug 2019",
-            "end": "April 2022",
-            "description": "Irure esse nulla et dolor ullamco. Laborum id labore exercitation consectetur irure proident irure. Et officia exercitation labore dolor ex incididunt magna elit dolore laboris."
+            "end": "Apr 2022",
+            "description": ""
         },
         {
             "name": "Y. B. Patil Polytechnic",
             "degree": "Diploma in Computer Engineering",
             "start": "Jul 2016",
-            "end": "April 2019",
-            "description": "Cillum qui nisi fugiat anim nostrud. Cillum culpa quis aute quis occaecat sunt consequat elit nisi minim. Officia nostrud fugiat pariatur sit cupidatat adipisicing ea adipisicing labore exercitation enim amet. Ullamco eiusmod commodo aliqua id aute qui fugiat."
+            "end": "Apr 2019",
+            "description": "In just three years, I've gone from knowing nothing about computer science to adoring programming. Since then, programming has become a huge part of my life. To this day, even if it's only a few lines of code, I credit all of my teachers for encouraging me to pursue this hobby in the first place."
         },
         {
             "name": "Jog Education Trust",
             "degree": "SSC (10th Std.)",
             "start": "June 2015",
             "end": "April 2016",
-            "description": "Dolor cupidatat exercitation elit adipisicing sunt ea veniam incididunt et ad non aute. Do enim aute esse nostrud fugiat minim. Culpa Lorem incididunt minim laboris duis laboris magna enim excepteur proident eu consectetur aliqua et."
+            "description": ""
         }
     ],
     "work": [
         {
             "name": "Yamini Innovations",
             "post": "Web Developer",
-            "start": "August 2021",
+            "start": "Aug 2021",
             "end": "Present",
             "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues <li>Used WordPress for boosting the development time.</li> <li>Increased performance & functionality than older website</li> <li>Made website SEO and User friendly.</li>"
         },
         {
             "name": "Experteze, USA",
             "post": "Full-Stack Web Developer Intern",
-            "start": "April 2021",
-            "end": "June 2021",
+            "start": "Apr 2021",
+            "end": "Jun 2021",
             "description": "Our Web Portal allows our team to collect and manage a patient's health data from one central location, thereby predicting the severity and likelihood of disease based on our findings. <li>Designing Database.</li> <li>Developing Backend.</li> <li>Deploying the site.</li> <li>Managed a small team</li>"
         }
     ],
     "volunteer": [
         {
-            "name": "Anush IT SOlution",
+            "name": "Anush IT Solution",
             "post": "Webinar Organizer",
             "start": "Jan 22",
             "end": "Jan 22",
@@ -161,39 +165,46 @@
     ],
     "certification": [
         {
-            "title": "Title 1",
-            "organization": "Org 1",
-            "issueDate": "Jan 21",
-            "id": "RloUcg",
-            "url": "http://example.com"
+            "title": "API Development with Node.js, Express and MongoDB",
+            "organization": "Google - Developer Student Clubs",
+            "issueDate": "Aug 21",
+            "id": "Z1bQW0S",
+            "url": "https://cert.shapeai.tech/verify/Z1bQW0S"
         },
         {
-            "title": "Title 2",
-            "organization": "Org 2",
-            "issueDate": "Jan 21",
-            "id": "RloUcg",
-            "url": "http://example.com"
+            "title": "JavaScript and React Bootcamp",
+            "organization": "ShapeAI",
+            "issueDate": "Jun 21",
+            "id": "222OXh",
+            "url": "https://cert.shapeai.cf/verify/222OXh"
         },
         {
-            "title": "Title 3",
-            "organization": "Org 3",
-            "issueDate": "Jan 21",
-            "id": "RloUcg",
-            "url": "http://example.com"
+            "title": "Version Control with Git",
+            "organization": "Coursera",
+            "issueDate": "Jun 21",
+            "id": "UK2XDA6AW7L3",
+            "url": "https://www.coursera.org/verify/UK2XDA6AW7L3"
         },
         {
-            "title": "Title 4",
-            "organization": "Org 4",
-            "issueDate": "Jan 21",
-            "id": "RloUcg",
-            "url": "http://example.com"
+            "title": "Command Course",
+            "organization": "Progate",
+            "issueDate": "Aug 20",
+            "id": "c2a910ceqeslo3",
+            "url": "https://progate.com/course_certificate/c2a910ceqeslo3"
         },
         {
-            "title": "Title 5",
-            "organization": "Org 5",
-            "issueDate": "Jan 20",
-            "id": "XyzQiz",
-            "url": "http://example.com"
+            "title": "Web Development Masterclass",
+            "organization": "YouAccel",
+            "issueDate": "Jun 20",
+            "id": "62138251",
+            "url": "https://drive.google.com/file/d/1hADN2GdsEz7l1XcuOIwQw1Psm61KIEjv/view?usp=sharing"
+        },
+        {
+            "title": "The Complete JavaScript Course For Web Development Beginners",
+            "organization": "Udemy",
+            "issueDate": "May 20",
+            "id": "UC-c7d03182-69ce-4053-946f-920307d00116",
+            "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-c7d03182-69ce-4053-946f-920307d00116.jpg"
         }
     ],
     "awards": [
@@ -266,12 +277,12 @@
             "items": ["Photoshop, XD, Premiere Pro"]
         }
     ],
-    "categories": ["NodeJS", "API", "PHP", "ReactJS", "JavaScript", "HTML_CSS"],
+    "categories": ["Major", "Advance", "Intermediate", "Beginner"],
     "projects": [
         {
             "title": "Let's Catch Up",
             "description": "Allow AI to help you keep up with what's going on in the world by reading some news feeds, talking about the weather for you on your command, or simply having a small talk with him.",
-            "category": "JavaScript ReactJS API",
+            "category": "Advance",
             "image": "img/projects/ai-news.png",
             "source": "https://github.com/SumitK27",
             "demo": "https://ai-news-feed.netlify.app/"
@@ -279,7 +290,7 @@
         {
             "title": "The Guardian Scraper",
             "description": "A project that retrieves all news stories from The Guardian UK and displays them in a human-readable format, as well as providing custom easy to use API.",
-            "category": "JavaScript NodeJS API",
+            "category": "Advance",
             "image": "img/projects/guardian-scraper.png",
             "source": "https://github.com/SumitK27",
             "demo": "https://jolly-kit-bull.cyclic.app/"
@@ -287,7 +298,7 @@
         {
             "title": "Google Search Clone",
             "description": "A Search Engine clone that searches the internet for websites, news, photos, and videos.",
-            "category": "JavaScript NodeJS API",
+            "category": "Advance",
             "image": "img/projects/gsearch.png",
             "source": "https://github.com/SumitK27/google-search-clone",
             "demo": "https://gsearch.netlify.app/"
@@ -295,7 +306,7 @@
         {
             "title": "React Weather App",
             "description": "Weather API-based web app that displays the weather around you based on your current location and allows you to check the weather in any other area on the planet.",
-            "category": "HTML_CSS JavaScript ReactJS API",
+            "category": "Intermediate",
             "image": "img/projects/react-weather-app.png",
             "source": "https://github.com/SumitK27/React-Weather-App",
             "demo": "https://react-owm-weather-app.netlify.app/"
@@ -303,7 +314,7 @@
         {
             "title": "Advice App",
             "description": "A fully responsive web app that displays random suggestions on each visit.",
-            "category": "HTML_CSS ReactJS",
+            "category": "Intermediate",
             "image": "img/projects/advice-app.png",
             "source": "https://github.com/SumitK27/react-advice-app",
             "demo": "https://random-advice-react-app.netlify.app/"
@@ -311,7 +322,7 @@
         {
             "title": "iiLegal",
             "description": "iiLegal Music's personal website from YouTube",
-            "category": "HTML_CSS JavaScript ReactJS",
+            "category": "Intermediate",
             "image": "img/projects/iilegal.png",
             "source": "https://github.com/SumitK27/iilegal-website",
             "demo": "https://iilegal.netlify.app/"
@@ -319,7 +330,7 @@
         {
             "title": "Rock Paper Scissors Lizard Spock",
             "description": "A more complex version of the classic game Rock Paper Scissors that allows you to decrease the likelihood of the game being drawn.",
-            "category": "HTML_CSS JavaScript ReactJS",
+            "category": "Beginner",
             "image": "img/projects/rock-paper-scissors-lizard-spock.png",
             "source": "https://github.com/SumitK27/rock-paper-scissors-lizard-spock",
             "demo": "https://rock-paper-scissors-lizard-spock-project.netlify.app/"
@@ -327,7 +338,7 @@
         {
             "title": "Google Maps Clone",
             "description": "Are you lost in a new place? See where you are now, and then find and go to your destination using routes suited for walking, cycling, or driving. With 3d View, you may choose between different map styles (Satellite, Streets & Navigation, or Outdoors).",
-            "category": "HTML_CSS JavaScript API",
+            "category": "Intermediate JavaScript API",
             "image": "img/projects/google-maps-clone.png",
             "source": "https://github.com/SumitK27",
             "demo": "https://testmycode.ga/google-maps-clone/"
@@ -335,7 +346,7 @@
         {
             "title": "MediCare",
             "description": "A Hospital Management System that manages doctors, nurses, or patients' medical data or prescriptions in a single location. There is no longer any need to manage separate files for each individual's record.",
-            "category": "Major HTML_CSS JavaScript Bootstrap PHP AJAX MySQL",
+            "category": "Major",
             "image": "img/projects/medicare.png",
             "source": "https://github.com/SumitK27/MediCare",
             "demo": "https://testmycode.ga/medicare.png"
@@ -343,7 +354,7 @@
         {
             "title": "Animato - An imaginary Food site.",
             "description": "A responsive page created with vanilla CSS. Modern College's Web Designing Competition winner.",
-            "category": "HTML_CSS",
+            "category": "Beginner",
             "image": "img/projects/animato.png",
             "source": "https://github.com/SumitK27",
             "demo": "https://testmycode.ga/Animato/"
@@ -351,7 +362,7 @@
         {
             "title": "The Perfect Cup",
             "description": "A full-stack project with user authentication, a members-only blog, and the ability to receive feedback from user via email.",
-            "category": "Major HTML_CSS JavaScript Bootstrap PHP AJAX MySQL",
+            "category": "Advance",
             "image": "img/projects/the-perfect-cup.png",
             "source": "https://github.com/SumitK27",
             "demo": "http://testmycode.gq/theperfectcup/"
@@ -359,7 +370,7 @@
         {
             "title": "Android Controlled Robotic Vehicle",
             "description": "Through Bluetooth communications, interface buttons, and voice commands, the Android app enables users to control the robot from a long distance.",
-            "category": "Major Arduino Android Embedded C",
+            "category": "Major",
             "image": "img/projects/arduino-vehicle.png",
             "source": "https://github.com/SumitK27",
             "demo": "http://testmycode.ga/"

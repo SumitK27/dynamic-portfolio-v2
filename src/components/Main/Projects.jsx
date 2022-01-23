@@ -18,13 +18,6 @@ const Projects = ({ projects, categories }) => {
                                 >
                                     All
                                 </a>
-                                <a
-                                    href="#."
-                                    data-filter=".Major"
-                                    className="art-link"
-                                >
-                                    Major
-                                </a>
                                 {categories.map((category) => (
                                     <a
                                         href="#."
