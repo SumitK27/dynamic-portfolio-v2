@@ -29,11 +29,11 @@
         "languages": [
             {
                 "name": "English",
-                "score": "80"
+                "score": "75"
             },
             {
                 "name": "Marathi",
-                "score": "75"
+                "score": "85"
             },
             {
                 "name": "Hindi",
@@ -228,7 +228,7 @@
         },
         {
             "name": "CSS",
-            "level": "55"
+            "level": "65"
         },
         {
             "name": "JavaScript",
@@ -280,6 +280,14 @@
     "categories": ["Major", "Advance", "Intermediate", "Beginner"],
     "projects": [
         {
+            "title": "Portfolio Template",
+            "description": "A fully customizable, mobile responsive React-based portfolio template that is ready for usage by any developer.",
+            "category": "Advance",
+            "image": "img/projects/dynamic-portfolio.png",
+            "source": "https://github.com/SumitK27/portfolio-v2",
+            "demo": "https://portfolio-sumit-kajbaje.netlify.app/"
+        },
+        {
             "title": "Let's Catch Up",
             "description": "Allow AI to help you keep up with what's going on in the world by reading some news feeds, talking about the weather for you on your command, or simply having a small talk with him.",
             "category": "Advance",
@@ -322,7 +330,7 @@
         {
             "title": "iiLegal",
             "description": "iiLegal Music's personal website from YouTube",
-            "category": "Intermediate",
+            "category": "Beginner",
             "image": "img/projects/iilegal.png",
             "source": "https://github.com/SumitK27/iilegal-website",
             "demo": "https://iilegal.netlify.app/"
@@ -330,7 +338,7 @@
         {
             "title": "Rock Paper Scissors Lizard Spock",
             "description": "A more complex version of the classic game Rock Paper Scissors that allows you to decrease the likelihood of the game being drawn.",
-            "category": "Beginner",
+            "category": "Intermediate",
             "image": "img/projects/rock-paper-scissors-lizard-spock.png",
             "source": "https://github.com/SumitK27/rock-paper-scissors-lizard-spock",
             "demo": "https://rock-paper-scissors-lizard-spock-project.netlify.app/"
