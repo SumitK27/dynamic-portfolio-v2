@@ -24,7 +24,7 @@
         "occupation": ["Web developer", "Programmer", "Designer"],
         "description": "I design and program websites and web applications of all types.",
         "image": "img/avatars/profile.jpg",
-        "heroImg": "img/avatars/hero.png",
+        "heroImg": "img/avatars/hero.jpg",
         "bio": "Self-motivated and hardworking graduate seeking an opportunity to work in a challenging environment to prove my skills and utilize my knowledge for the growth of the organization while at the same time pursuing my individual growth.",
         "languages": [
             {
@@ -123,14 +123,14 @@
             "post": "Web Developer",
             "start": "Aug 2021",
             "end": "Present",
-            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues <li>Used WordPress for boosting the development time.</li> <li>Increased performance & functionality than older website</li> <li>Made website SEO and User friendly.</li>"
+            "description": "My job was to create a better website both feature and performance-wise as compared to their existing one. It was also my responsibility to maintain the site and keep it secured from any security issues <ul><li>Used WordPress for boosting the development time.</li> <li>Increased performance & functionality than older website</li> <li>Made website SEO and User friendly.</li></ul>"
         },
         {
             "name": "Experteze, USA",
             "post": "Full-Stack Web Developer Intern",
             "start": "Apr 2021",
             "end": "Jun 2021",
-            "description": "Our Web Portal allows our team to collect and manage a patient's health data from one central location, thereby predicting the severity and likelihood of disease based on our findings. <li>Designing Database.</li> <li>Developing Backend.</li> <li>Deploying the site.</li> <li>Managed a small team</li>"
+            "description": "Our Web Portal allows our team to collect and manage a patient's health data from one central location, thereby predicting the severity and likelihood of disease based on our findings. <ul><li>Designing Database.</li> <li>Developing Backend.</li> <li>Deploying the site.</li> <li>Managed a small team</li></ul>"
         }
     ],
     "volunteer": [
@@ -139,28 +139,28 @@
             "post": "Webinar Organizer",
             "start": "Jan 22",
             "end": "Jan 22",
-            "description": "<li>Designing flyers for the event</li><li> Managing the registration and feedback</li><li>Notifying participants via email for event reminder</li><li>Generating the Attendee Certificates for all participants and speakers</li>"
+            "description": "<ul><li>Designing flyers for the event</li><li> Managing the registration and feedback</li><li>Notifying participants via email for event reminder</li><li>Generating the Attendee Certificates for all participants and speakers</li></ul>"
         },
         {
             "name": "XenStack Solutions",
             "post": "Webinar Organizer",
             "start": "Jan 22",
             "end": "Jan 22",
-            "description": "<li>Designing flyers for the event</li><li> Managing the registration and feedback</li><li>Notifying participants via email for event reminder</li><li>Generating the Attendee Certificates for all participants and speakers</li>"
+            "description": "<ul><li>Designing flyers for the event</li><li> Managing the registration and feedback</li><li>Notifying participants via email for event reminder</li><li>Generating the Attendee Certificates for all participants and speakers</li></ul>"
         },
         {
             "name": "Banaras Hindu University (BHU)",
             "post": "Assistant Organizing Secretary",
             "start": "Jul 21",
             "end": "Jul. 21",
-            "description": "<li>Designing flyers for the event</li> <li>Managing the registration and feedback</li> <li>Notifying participants via email for event reminder</li> <li>The honor of hosting the Kulgeet of BHU</li> <li>Generating the Attendee Certificates for all participants and speakers</li>"
+            "description": "<ul><li>Designing flyers for the event</li> <li>Managing the registration and feedback</li> <li>Notifying participants via email for event reminder</li> <li>The honor of hosting the Kulgeet of BHU</li> <li>Generating the Attendee Certificates for all participants and speakers</li></ul>"
         },
         {
             "name": "Experteze",
             "post": "Webinar Organizer",
             "start": "May 21",
             "end": "May 21",
-            "description": "<li>Designing flyers for the event</li><li> Managing the registration and feedback</li><li>Notifying participants via email for event reminder</li><li>Generating the Attendee Certificates for all participants and speakers</li>"
+            "description": "<ul><li>Designing flyers for the event</li><li> Managing the registration and feedback</li><li>Notifying participants via email for event reminder</li><li>Generating the Attendee Certificates for all participants and speakers</li></ul>"
         }
     ],
     "certification": [
@@ -283,7 +283,7 @@
             "title": "Portfolio Template",
             "description": "A fully customizable, mobile responsive React-based portfolio template that is ready for usage by any developer.",
             "category": "Advance",
-            "image": "img/projects/dynamic-portfolio.png",
+            "image": "img/projects/dynamic-portfolio.jpg",
             "source": "https://github.com/SumitK27/portfolio-v2",
             "demo": "https://portfolio-sumit-kajbaje.netlify.app/"
         },
@@ -291,7 +291,7 @@
             "title": "Let's Catch Up",
             "description": "Allow AI to help you keep up with what's going on in the world by reading some news feeds, talking about the weather for you on your command, or simply having a small talk with him.",
             "category": "Advance",
-            "image": "img/projects/ai-news.png",
+            "image": "img/projects/ai-news.jpg",
             "source": "https://github.com/SumitK27",
             "demo": "https://ai-news-feed.netlify.app/"
         },
@@ -299,7 +299,7 @@
             "title": "The Guardian Scraper",
             "description": "A project that retrieves all news stories from The Guardian UK and displays them in a human-readable format, as well as providing custom easy to use API.",
             "category": "Advance",
-            "image": "img/projects/guardian-scraper.png",
+            "image": "img/projects/guardian-scraper.jpg",
             "source": "https://github.com/SumitK27",
             "demo": "https://jolly-kit-bull.cyclic.app/"
         },
@@ -307,7 +307,7 @@
             "title": "Google Search Clone",
             "description": "A Search Engine clone that searches the internet for websites, news, photos, and videos.",
             "category": "Advance",
-            "image": "img/projects/gsearch.png",
+            "image": "img/projects/gsearch.jpg",
             "source": "https://github.com/SumitK27/google-search-clone",
             "demo": "https://gsearch.netlify.app/"
         },
@@ -315,7 +315,7 @@
             "title": "React Weather App",
             "description": "Weather API-based web app that displays the weather around you based on your current location and allows you to check the weather in any other area on the planet.",
             "category": "Intermediate",
-            "image": "img/projects/react-weather-app.png",
+            "image": "img/projects/react-weather-app.jpg",
             "source": "https://github.com/SumitK27/React-Weather-App",
             "demo": "https://react-owm-weather-app.netlify.app/"
         },
@@ -323,7 +323,7 @@
             "title": "Advice App",
             "description": "A fully responsive web app that displays random suggestions on each visit.",
             "category": "Intermediate",
-            "image": "img/projects/advice-app.png",
+            "image": "img/projects/advice-app.jpg",
             "source": "https://github.com/SumitK27/react-advice-app",
             "demo": "https://random-advice-react-app.netlify.app/"
         },
@@ -331,7 +331,7 @@
             "title": "iiLegal",
             "description": "iiLegal Music's personal website from YouTube",
             "category": "Beginner",
-            "image": "img/projects/iilegal.png",
+            "image": "img/projects/iilegal.jpg",
             "source": "https://github.com/SumitK27/iilegal-website",
             "demo": "https://iilegal.netlify.app/"
         },
@@ -339,7 +339,7 @@
             "title": "Rock Paper Scissors Lizard Spock",
             "description": "A more complex version of the classic game Rock Paper Scissors that allows you to decrease the likelihood of the game being drawn.",
             "category": "Intermediate",
-            "image": "img/projects/rock-paper-scissors-lizard-spock.png",
+            "image": "img/projects/rock-paper-scissors-lizard-spock.jpg",
             "source": "https://github.com/SumitK27/rock-paper-scissors-lizard-spock",
             "demo": "https://rock-paper-scissors-lizard-spock-project.netlify.app/"
         },
@@ -347,7 +347,7 @@
             "title": "Google Maps Clone",
             "description": "Are you lost in a new place? See where you are now, and then find and go to your destination using routes suited for walking, cycling, or driving. With 3d View, you may choose between different map styles (Satellite, Streets & Navigation, or Outdoors).",
             "category": "Intermediate JavaScript API",
-            "image": "img/projects/google-maps-clone.png",
+            "image": "img/projects/google-maps-clone.jpg",
             "source": "https://github.com/SumitK27",
             "demo": "https://testmycode.ga/google-maps-clone/"
         },
@@ -355,15 +355,15 @@
             "title": "MediCare",
             "description": "A Hospital Management System that manages doctors, nurses, or patients' medical data or prescriptions in a single location. There is no longer any need to manage separate files for each individual's record.",
             "category": "Major",
-            "image": "img/projects/medicare.png",
+            "image": "img/projects/medicare.jpg",
             "source": "https://github.com/SumitK27/MediCare",
-            "demo": "https://testmycode.ga/medicare.png"
+            "demo": "https://testmycode.ga/medicare.jpg"
         },
         {
             "title": "Animato - An imaginary Food site.",
             "description": "A responsive page created with vanilla CSS. Modern College's Web Designing Competition winner.",
             "category": "Beginner",
-            "image": "img/projects/animato.png",
+            "image": "img/projects/animato.jpg",
             "source": "https://github.com/SumitK27",
             "demo": "https://testmycode.ga/Animato/"
         },
@@ -371,7 +371,7 @@
             "title": "The Perfect Cup",
             "description": "A full-stack project with user authentication, a members-only blog, and the ability to receive feedback from user via email.",
             "category": "Advance",
-            "image": "img/projects/the-perfect-cup.png",
+            "image": "img/projects/the-perfect-cup.jpg",
             "source": "https://github.com/SumitK27",
             "demo": "http://testmycode.gq/theperfectcup/"
         },
@@ -379,7 +379,7 @@
             "title": "Android Controlled Robotic Vehicle",
             "description": "Through Bluetooth communications, interface buttons, and voice commands, the Android app enables users to control the robot from a long distance.",
             "category": "Major",
-            "image": "img/projects/arduino-vehicle.png",
+            "image": "img/projects/arduino-vehicle.jpg",
             "source": "https://github.com/SumitK27",
             "demo": "http://testmycode.ga/"
         }
