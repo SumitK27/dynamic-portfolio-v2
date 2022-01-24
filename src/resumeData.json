@@ -280,6 +280,14 @@
     "categories": ["Major", "Advance", "Intermediate", "Beginner"],
     "projects": [
         {
+            "title": "HasteBin",
+            "description": "A full-stack app for sharing code snippets easily. Integrated cloud database for storing the documents.",
+            "category": "Advance",
+            "image": "img/projects/hastebin.jpg",
+            "source": "https://github.com/SumitK27/hastebin-clone",
+            "demo": "https://cyan-zebra-sari.cyclic.app/"
+        },
+        {
             "title": "Portfolio Template",
             "description": "A fully customizable, mobile responsive React-based portfolio template that is ready for usage by any developer.",
             "category": "Advance",
